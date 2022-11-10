@@ -20,7 +20,7 @@ public class Hashmap {
 		cars.add("Ford");
 		cars.add(1,"Mazda");
 		String a=cars.get(1);
-		if(a=="Mercedes") 
+		if(a=="Mazda") 
 		{
 			System.out.println("Eşitlik Sağlandı...");
 		}
@@ -30,6 +30,16 @@ public class Hashmap {
 		}
 		else
 			System.out.println("Eşitlik Sağlanamadı");
+		try 
+		{
+			int[] dizi= {1,2,3};
+			System.out.println(dizi[10]);
+			System.out.println("Buraya ulaştı...");
+		}
+		catch(Exception e) 
+		{
+			System.out.println("Bir şeyler yanlış gidiyor...");
+		}
 	}
 
 }
